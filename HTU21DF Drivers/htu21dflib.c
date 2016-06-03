@@ -279,7 +279,7 @@ int main(int argc, char *argv[])
             return -4;
         }
 
-        printf("%.1f %.1f\n", temperature, humidity);
+        printf("%.1f %.1f\n", ((temperature*1.8)+32), humidity);
         sleep(1);
     }
 
