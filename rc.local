@@ -17,6 +17,6 @@ if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
 
-sudo sh /etc/init.d/launch_htu21df.sh >> /root/htu21df.log &
+sudo sh /etc/init.d/launch_htu21df.sh >> /YOUR_USER_FOLDER/htu21df.log &
 
 exit 0
