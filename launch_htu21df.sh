@@ -15,10 +15,11 @@
 #			data to MySQL database. 
 ### END INIT INFO
 
+sleep 20
 cd 
 killall pigpiod
 cd
-sudo pigpiod
+sudo /root/RaspberryPI_HTU21DF/pigpiod
 cd
 sudo python /YOUR_FILE_LOCATION/insertMySQL.py >> /YOUR_USER_FOLDER/htu21df.log &
 cd
