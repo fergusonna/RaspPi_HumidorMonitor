@@ -8,7 +8,7 @@ https://github.com/jervine/rpi-temp-humid-monitor (Google graph/chart design)
 https://github.com/dalexgray/RaspberryPI_HTU21DF (Python HTU21DF drivers)
 
 
-https://github.com/bpass03/RaspPi_HumidorMonitor (HTML/PHP/CSS design and implementation for MySQL integration, build components)
+https://github.com/bpass03/RaspPi_HumidorMonitor (HTML/PHP/CSS design, Python MySQL integration, build components)
 
 Concept
 
