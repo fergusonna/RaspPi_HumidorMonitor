@@ -11,7 +11,8 @@ Credit to the following for their hard work and for allowing their code to be mo
 
 Concept
 
-	Initially, the project started with researching the advantages or disadvantages of building from the Arduino or Raspberry Pi platform.
+	Initially, the project started with researching the advantages or disadvantages of building from the Arduino 
+	or Raspberry Pi platform.
 
 
 Parts & Process
