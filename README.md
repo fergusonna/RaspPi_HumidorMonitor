@@ -1,7 +1,7 @@
 # RaspPi_HumidorMonitor
 Raspberry Pi powered Humidor Monitor
 
-Credit to the following for their hard work and for allowing their code to be modified/used as part of this project under GPL:
+Credit to the following for their hard work and for allowing their code to be modified/used as part of this project under MIT and/or GPL licenses:
 
 https://github.com/jervine/rpi-temp-humid-monitor (Google graph/chart design)
 
