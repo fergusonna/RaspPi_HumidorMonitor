@@ -19,4 +19,17 @@ Five-Pin Flexcable (A9BAG-0508F-ND)
 
 Details
 
+insertMySQL.py
+	Edit this file to include the proper MySQL settings for your database
+
+launch_htu21df.sh
+	Edit this file with the file location for htu21df.py
+	Place this file in /etc/init.d/
+	This file will be called by the modified rc.local to start monitoring on boot
+
+rc.local (/etc/rc.local)
+	Edit and add the following line before exit 0 
+	Add sudo sh /etc/init.d/launch_htu21df.sh >> /root/htu21df.log & 
+
+
 Project build details to follow.
