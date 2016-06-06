@@ -219,7 +219,7 @@ echo "<table align='center' width='1000' border='0'>";
 	</div>
     <div id="footer">
 		<div>
-			<p>&copy; 2016 by BSP. All rights reserved.</p>
+			<p>&copy; 2016 INSERT COPYRIGHT</p>
 		</div>
 	</div>
   </body>
