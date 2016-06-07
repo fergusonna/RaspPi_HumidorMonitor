@@ -176,13 +176,13 @@ $sql = "SELECT MAX(Humidity) FROM TempHumid";
 	
 	echo "<p></p>";
 	
-	$sql = 'SELECT MAX(FROM_UNIXTIME(ComputerTime, "%m-%d-%Y at %r")) FROM TempHumid';
+	$sql = 'SELECT FROM_UNIXTIME(ComputerTime, "%m-%d-%Y at %r") FROM TempHumid order by id DESC limit 1';
 	$result = mysql_query($sql) or die(mysql_error());
 
 	while($row = mysql_fetch_array($result)) {
 		
 echo "<table align='center' width='1000' border='0'>";
-	echo "<tr> <th scope='col' colspan='2'><h3 align='center'>Most Recent Update: " . $row['MAX(FROM_UNIXTIME(ComputerTime, "%m-%d-%Y at %r"))'] ."</h3></th> </tr>";
+	echo "<tr> <th scope='col' colspan='2'><h3 align='center'>Most Recent Update: " . $row['FROM_UNIXTIME(ComputerTime, "%m-%d-%Y at %r")'] ."</h3></th> </tr>";
 	}
 	// close table>
 	echo "</table>";
