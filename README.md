@@ -47,3 +47,12 @@ rc.local (/etc/rc.local)
 
 	Add sudo sh /etc/init.d/launch_htu21df.sh >> /root/htu21df.log & 
 
+Other Notes
+
+	Initially, I had the sensor mounted on the rear wall of the humidor, with the cable run out the gap and the Raspberry Pi mounted on the 
+	outside rear of the humidor (basically, just on the other side of the wood from the sensor). However, the Raspberry Pi generated and 
+	transferred too much heat through the back side of the wood, and caused the sensor produce inaccurate readings (high temp, probably accurate, 
+	but excessively low humidity). 
+
+	I fixed this by reversing the pinout and flipping the sensor and mounting it to the lid of the humidor near where the humidifier and internal
+	hygrometer attach.
