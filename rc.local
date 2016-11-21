@@ -19,8 +19,6 @@ _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
   printf "My IP address is %s\n" "$_IP"
 fi
-# Run No-IP
-/usr/local/bin/noip2
 
 # Launch Temp/Humidity Sensor Script
 sudo sh /etc/init.d/launch_htu21df.sh >> /YOUR_USER_FOLDER/htu21df.log &
@@ -28,4 +26,6 @@ sudo sh /etc/init.d/launch_htu21df.sh >> /YOUR_USER_FOLDER/htu21df.log &
 # Launch VNC
 sudo sh etc/init.d/launch_vnc.sh >> /root/vncboot.log &
 
+# Run No-IP
+/usr/local/bin/noip2
 exit 0

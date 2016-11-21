@@ -17,9 +17,9 @@
 
 sleep 20
 cd 
-killall pigpiod
+sudo killall pigpiod
+sudo pigpiod
 cd
-sudo /root/RaspberryPI_HTU21DF/pigpiod
-cd
-sudo python /YOUR_FILE_LOCATION/insertMySQL.py >> /YOUR_USER_FOLDER/htu21df.log &
+cd /YOUR_FILE_LOCATION
+sudo python insertMySQL.py >> /YOUR_USER_FOLDER/htu21df.log &
 cd
