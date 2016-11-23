@@ -15,8 +15,8 @@
 sudo sh /etc/init.d/launch_htu21df.sh >> /YOUR_USER_FOLDER/htu21df.log &
 
 # Launch VNC
-sudo sh etc/init.d/launch_vnc.sh >> /root/vncboot.log &
+sudo sh etc/init.d/launch_vnc.sh >> /YOUR_USER_FOLDER/vncboot.log &
 
 # Launch No-IP
-sudo sh etc/init.d/launch_noip.sh >> /root/no-ipboot.log &
+sudo sh etc/init.d/launch_noip.sh >> /YOUR_USER_FOLDER/no-ipboot.log &
 exit 0
